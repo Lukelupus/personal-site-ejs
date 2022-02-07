@@ -283,8 +283,10 @@ a:link, a:visited {
 }
 
 
-  @media (max-width: 600px) {
-  .mobile-text {
+  @media (max-width: 1024px) {
+
+  .row {
     text-align: center;
+    width: 100%;
   }
 }
