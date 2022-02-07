@@ -284,7 +284,11 @@ a:link, a:visited {
 
 
   @media (max-width: 1024px) {
-
+    h3 {
+      margin: auto;
+      font-weight: bold;
+      color: #495464;
+    }
   .row {
     text-align: center;
     width: 100%;
