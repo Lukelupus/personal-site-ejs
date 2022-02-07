@@ -282,11 +282,65 @@ a:link, a:visited {
   to {opacity:1 ;}
 }
 
-@media (max-width: 1024px) {
-  body {
-    text-align: center;
-  }
-  .mobile-text {
-    width: 100%;
-  }
+
+
+
+
+@media only screen
+  and (min-device-width: 320px)
+  and (max-device-width: 568px)
+  and (-webkit-min-device-pixel-ratio: 2) {
+    .mobile-text {
+      text-align: center;
+      width: 100%;
+      height: 100%;
+    }
+    h3 {
+      margin: auto;
+      font-weight: bold;
+      color: #495464;
+    }
+
+    h1, p {
+      text-align: center;
+    }
+      img {
+        text-align: center;
+
+}
+.fit-better {
+  left: auto;
+}
+
+.card {
+  text-align: center;
+}
+}
+@media screen
+  and (device-width: 400px)
+  and (device-height: 800px) {
+    .mobile-text {
+      text-align: center;
+      width: 100%;
+      height: 100%;
+    }
+    h3 {
+      margin: auto;
+      font-weight: bold;
+      color: #495464;
+    }
+
+    h1, p {
+      text-align: center;
+    }
+      img {
+        text-align: center;
+
+}
+.fit-better {
+  left: auto;
+}
+.card {
+  text-align: center;
+}
 }
