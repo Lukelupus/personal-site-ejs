@@ -283,13 +283,6 @@ a:link, a:visited {
 }
 
 @media (max-width: 1028px) {
-  #title {
+  #skills {
     text-align: center;
   }
-
-  .title-image {
-    transform: rotate(0);
-    position: static;
-    width: auto;
-  }
-}
