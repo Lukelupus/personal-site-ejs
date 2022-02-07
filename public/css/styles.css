@@ -281,3 +281,15 @@ a:link, a:visited {
   from {opacity: 0;}
   to {opacity:1 ;}
 }
+
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-image {
+    transform: rotate(0);
+    position: static;
+    width: auto;
+  }
+}
