@@ -294,3 +294,15 @@ a:link, a:visited {
     width: 100%;
   }
 }
+
+@media (max-width: 768px) {
+  h3 {
+    margin: auto;
+    font-weight: bold;
+    color: #495464;
+  }
+.row {
+  text-align: center;
+  width: 100%;
+}
+}
