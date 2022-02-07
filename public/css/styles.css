@@ -289,7 +289,7 @@ a:link, a:visited {
 @media only screen
   and (min-device-width: 320px)
   and (max-device-width: 568px)
-  and (-webkit-min-device-pixel-ratio: 2) {
+ {
     .mobile-text {
       text-align: center;
       width: 100%;
@@ -303,6 +303,7 @@ a:link, a:visited {
 
     h1, p {
       text-align: center;
+    }
       img {
         text-align: center;
 
@@ -314,7 +315,8 @@ a:link, a:visited {
 .card {
   text-align: center;
 }
-@media screen
+}
+@media  only screen
   and (device-width: 400px)
   and (device-height: 800px) {
     .mobile-text {
@@ -330,6 +332,7 @@ a:link, a:visited {
 
     h1, p {
       text-align: center;
+    }
       img {
         text-align: center;
 
@@ -339,4 +342,5 @@ a:link, a:visited {
 }
 .card {
   text-align: center;
+}
 }
