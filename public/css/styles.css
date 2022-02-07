@@ -289,20 +289,8 @@ a:link, a:visited {
       font-weight: bold;
       color: #495464;
     }
-  .row {
+  .mobile-text {
     text-align: center;
     width: 100%;
   }
-}
-
-@media only screen and (min-width: 768px) {
-  h3 {
-    margin: auto;
-    font-weight: bold;
-    color: #495464;
-  }
-.mobile-text {
-  text-align: center;
-  width: 100%;
-}
 }
