@@ -310,6 +310,9 @@ a:link, a:visited {
     position: relative;
     
   }
+  .fa-angle-right {
+    display: none;
+  }
 }
 
 
