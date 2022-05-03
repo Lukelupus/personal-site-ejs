@@ -120,10 +120,16 @@ a:link, a:visited {
   padding-top: 20px;
 }
 
+.card {
+  border: 0px;
+  background-color: #F4F4F2;
+}
+
 .card-img {
-  margin-left: 100px;
-  width: 350px;
+  margin-left: 30px;
+  width: 430px;
   height: 450px;
+ 
 }
 
 .carousel-item {
