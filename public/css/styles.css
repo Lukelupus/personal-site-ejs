@@ -19,6 +19,7 @@ h1, h5 {
 }
 
 h3 {
+  text-align: center;
   margin: 0 100px 30px 25px;
   font-weight: bold;
   color: #495464;
@@ -114,6 +115,7 @@ a:link, a:visited {
 .text {
   font-size: 1rem;
   padding: 0;
+  margin-left: 2rem;;
 }
 
 .card-body {
@@ -127,8 +129,8 @@ a:link, a:visited {
 
 .card-img {
   margin-left: 30px;
-  width: 430px;
-  height: 450px;
+  width: 100%;
+  height: auto;
  
 }
 
@@ -145,7 +147,9 @@ a:link, a:visited {
   width: 654.125px;
 }
 
-
+.mobile-portfolio {
+  display: none;
+}
 
 .fit-better {
   height:fit-content;
@@ -206,6 +210,8 @@ a:link, a:visited {
 
 .lists {
   list-style-type: none;
+  margin-right: 20%;
+  text-align: center;
 }
 
 .list-style {
@@ -276,6 +282,11 @@ a:link, a:visited {
   -webkit-animation: fadeIn 0.65s;
   animation: fadeIn 0.65s
 }
+#homeboxes:after {
+  clear: both;
+  content: "";
+  display: block;
+}
 
 
 @-webkit-keyframes fadeIn {
@@ -315,6 +326,75 @@ a:link, a:visited {
   .fa-angle-right {
     display: none;
   }
+
+  .mobile-portfolio {
+    display: inline-block;
+    align-items: center;
+    
+  }
+  .lists {
+    text-align: center;
+    margin-bottom: 1rem;
+    margin: auto;
+  }
+
+  .front-page-item {
+    padding: 1rem;
+  }
+
+  .footer {
+    
+    
+    position: inherit;
+  }
+  
 }
 
+@media only screen and (max-device-width: 1024px) {
+  h1, p {
+    padding: 0%;
+  }
+  h3 {
+      margin: auto;
+      font-weight: bold;
+      color: #495464;
+    }
+    body {
+      text-align: center;
+    }
+
+  .card {
+    display: none;
+  }
+  .fit-better {
+    height:min-content;
+    width:min-content;
+    position: relative;
+    
+  }
+  .fa-angle-right {
+    display: none;
+  }
+
+  .mobile-portfolio {
+    display: inline-block;
+    align-items: center;
+    
+  }
+  .lists {
+    text-align: center;
+    margin-bottom: 1rem;
+    margin-right: 5%;
+  }
+
+  .front-page-item {
+    padding: 1rem;
+  }
+
+  .footer {
+    
+    
+    position: inherit;
+  }
+}
 
