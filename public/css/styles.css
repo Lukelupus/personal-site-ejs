@@ -305,8 +305,8 @@ a:link, a:visited {
     display: none;
   }
   .fit-better {
-    height:fit-content;
-    width:fit-content;
+    height:min-content;
+    width:min-content;
     position: relative;
     
   }
