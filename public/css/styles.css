@@ -131,10 +131,10 @@ a:link, a:visited {
 }
 
 .carousel-item {
-  width: 678.125px;
-  height: 437.406px;
-  margin-left: 14px;
+  width: min-content;
+  height: min-content;
 }
+  
 
 .carousel-caption {
   position: relative;
@@ -146,10 +146,14 @@ a:link, a:visited {
 
 
 .fit-better {
-  height: 400px;
-  width: 702.125px;
+  height:fit-content;
+  width:fit-content;
   position: relative;
+  display: flex;
+  align-items: center;
   left: 25%;
+  
+
 }
 
 .home-img {
@@ -283,14 +287,29 @@ a:link, a:visited {
 }
 
 
-  @media (max-width: 1024px) {
-    h3 {
+@media only screen and (max-width: 600px) {
+  
+  h1, p {
+    padding: 0%;
+  }
+  h3 {
       margin: auto;
       font-weight: bold;
       color: #495464;
     }
-  .mobile-text {
-    text-align: center;
-    width: 100%;
+    body {
+      text-align: center;
+    }
+
+  .card {
+    display: none;
+  }
+  .fit-better {
+    height:fit-content;
+    width:fit-content;
+    position: relative;
+    
   }
 }
+
+
