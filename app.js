@@ -5,6 +5,9 @@ const ejs = require("ejs");
 const _ = require("lodash");
 const bodyParser = require("body-parser");
 
+const cool = require('cool-ascii-faces');
+const path = require('path');
+
 const app = express();
 
 app.set('view engine', 'ejs');
@@ -45,8 +48,10 @@ app.get("/home", function(req, res) {
   });
 });
 
+app.get('/cool', (req, res) => res.send(cool()))
+
+const PORT = process.env.PORT || 5000;
 
 
 
-
-app.listen(3000);
+app.listen(PORT);
